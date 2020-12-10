@@ -1,0 +1,2 @@
+secret.yaml filter=git-crypt diff=git-crypt
+coordinator_backup.json filter=git-crypt diff=git-crypt

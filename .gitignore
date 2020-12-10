@@ -1,8 +1,8 @@
 # Ignore all files and folders
 /*
 # Except
+!.gitattributes
 !.gitignore
 !database.db
 !*.yaml
-# But definately secret.yaml!
-secret.yaml
+!coordinator_backup.json
