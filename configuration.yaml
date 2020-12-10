@@ -1,0 +1,25 @@
+homeassistant: true
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: 'mqtt://MQTT:1883'
+serial:
+  port: /dev/ttyUSB0
+advanced:
+  pan_id: 0x1a63
+  channel: 18
+  rtscts: false
+  log_level: info
+  last_seen: ISO_8601_local
+  cache_state: true
+  report: false
+  availability_timeout: 60
+  network_key: '!secret network_key'
+frontend:
+  port: 8080
+experimental:
+  new_api: true
+device_options:
+  occupancy_timeout: 4
+devices: devices.yaml
+groups: groups.yaml

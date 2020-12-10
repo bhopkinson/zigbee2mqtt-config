@@ -1,0 +1,83 @@
+'0x00158d000305199b':
+  friendly_name: hall_motion_1
+'0x00158d0003139922':
+  friendly_name: hall_motion_2
+'0x00158d000366954e':
+  friendly_name: hall_motion_3
+'0x00158d0003042333':
+  friendly_name: utility_motion
+'0x00158d00031b1e81':
+  friendly_name: cloakroom_motion
+'0x00158d0002e2e59d':
+  friendly_name: kitchen_motion_1
+'0x00158d0002e2e564':
+  friendly_name: kitchen_motion_2
+'0x00158d0003cbb4a3':
+  friendly_name: cloakroom_door
+'0x000d6ffffea6de9b':
+  friendly_name: utility_bulb_1
+'0x000d6ffffeda3296':
+  friendly_name: utility_bulb_2
+'0x000d6ffffeda273b':
+  friendly_name: utility_bulb_3
+'0xd0cf5efffeda849d':
+  friendly_name: utility_bulb_4
+'0x0017880104fbbf32':
+  friendly_name: kitchen_ceiling_1
+'0x0017880104fbc74e':
+  friendly_name: kitchen_ceiling_2
+'0x0017880106e87a1c':
+  friendly_name: kitchen_dimmer
+'0x00124b0014b93770':
+  friendly_name: coordinator
+'0x000d6ffffeca8380':
+  friendly_name: electric_blanket_brad
+'0x000d6ffffeb1d1ec':
+  friendly_name: electric_blanket_heather
+'0x00158d00017d549d':
+  friendly_name: pet_room_light
+'0x00158d00034cc889':
+  friendly_name: pet_room_motion_1
+'0x00158d00036654f6':
+  friendly_name: pet_room_motion_2
+'0x00158d000313c577':
+  friendly_name: canopy_motion
+'0x000d6ffffec7e1d4':
+  friendly_name: canopy_bulb_1
+'0x000b57fffeefa520':
+  friendly_name: canopy_bulb_2
+'0x000d6ffffed0fdcb':
+  friendly_name: canopy_bulb_3
+'0x000d6ffffead9e39':
+  friendly_name: porch_bulb_1
+'0x000d6ffffed0fdd1':
+  friendly_name: porch_bulb_2
+'0x000d6ffffedab784':
+  friendly_name: sign_bulb
+'0x001788010647868b':
+  friendly_name: back_gate_motion
+'0x00124b001cd593f9':
+  friendly_name: lounge_shelf_lights
+  homeassistant:
+    switch:
+      type: light
+      object_id: light
+      name: my_switch
+'0x00158d0004a00241':
+  friendly_name: back_door
+'0x00124b00224192d9':
+  friendly_name: christmas_tree_lights
+  homeassistant:
+    switch:
+      type: light
+      object_id: light
+      name: my_switch
+'0x00124b00224191c6':
+  friendly_name: spare_socket
+'0x00124b0022413dac':
+  friendly_name: christmas_candle_bridge
+  homeassistant:
+    switch:
+      type: light
+      object_id: light
+      name: my_switch
